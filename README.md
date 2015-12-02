@@ -56,3 +56,4 @@ If you run into python throwing an InsecurePlatformWarning just run:
 ```
 pip install requests[security]
 ```
+Also I am cruizin for a poozin
