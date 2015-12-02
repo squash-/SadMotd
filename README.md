@@ -1,8 +1,8 @@
 # SadMotd
 Add a MOTD to your server inspired by http://twitter.com/SadServer
 
-OS Compatibility: CentOS*, Debian, Ubuntu.
-'*' See Requirements Section
+OS Compatibility: CentOS\* , Debian, Ubuntu.
+\* See Requirements Section
 
 ## Configuration
 
