@@ -1,8 +1,8 @@
 # SadMotd
 Add a MOTD to your server inspired by http://twitter.com/SadServer
 
-Note: This only works for CentOS and any other linux distribution that uses /etc/motd for it's SSH motd.
-I will try and update it in the future for other distributions such as ubuntu, etc. as I have time.
+OS Compatibility: CentOS*, Debian, Ubuntu.
+'*' See Requirements Section
 
 ## Configuration
 
@@ -48,6 +48,12 @@ Uses the following Python libraries (and their dependencies):
 `python-twitter` can easily be installed with pip by running:
 ```
 pip install python-twitter
+```
+For CentOS: for this to work on CentOS it requires the lsb_release package be installed.
+
+This can be done by running:
+```
+sudo yum -y install redhat-lsb
 ```
 
 Notes:
