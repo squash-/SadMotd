@@ -2,6 +2,7 @@
 
 import twitter
 import lsb_release
+from random import randint
 
 osID = lsb_release.get_distro_information()['ID']
 
