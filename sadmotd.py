@@ -30,7 +30,7 @@ rand_tweet = randint(0,99)
 status=t.GetUserTimeline(screen_name=twitter_user, count=100)
 latest_status = status[rand_tweet].text
 
-f.write("SadServer Says: "))
+f.write("SadServer Says: ")
 f.write(latest_status)
 f.write("\n")
 f.write("\n")
