@@ -2,6 +2,7 @@
 Add a MOTD to your server inspired by http://twitter.com/SadServer
 
 OS Compatibility: CentOS\* , Debian, Ubuntu.
+
 \* See Requirements Section
 
 ## Configuration
@@ -20,7 +21,7 @@ axx_secret = '<replace with access token secret>'
 
 A little background:
 
-* `c_key` is the consumer key you get when you create an app with [Twitter}(http://developer.twitter.com/), once you've done that you can get your consumer key.
+* `c_key` is the consumer key you get when you create an app with [Twitter](http://developer.twitter.com/), once you've done that you can get your consumer key.
 * `c_secret` you can get the same way you can get the consumer key.
 * `axx_token` is the access token key you generate from your new twitter app.
 * `axx_secret` you can get this the same way as the access token key
